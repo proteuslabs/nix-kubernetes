@@ -3,7 +3,7 @@
 
 ## About
 
-Nix-kubernetes is deployment manager for kubernetes that users nixos module
+Nix-kubernetes is deployment manager for kubernetes that uses nixos module
 system to do declarative kubernetes configuration and deployment. By combining
 nix package manager and nix-kubernetes declarative cluster configuration it can
 do fully deterministic deployments from packages to configuration.
