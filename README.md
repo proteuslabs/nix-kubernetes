@@ -1,3 +1,5 @@
+**This repository is deprecated, please use https://github.com/xtruder/kubenix**
+
 # nix-kubernetes [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > Kubernetes deployment manager written in nix
 
