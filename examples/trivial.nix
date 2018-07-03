@@ -1,6 +1,6 @@
 {
   default = {
-    kubernetes.namespace.name = "default";
+    kubernetes.defaultNamespace = "default";
 
     # Elasticserach replication controller
     kubernetes.controllers.elasticsearch = {
