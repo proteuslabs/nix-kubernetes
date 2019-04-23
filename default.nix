@@ -45,8 +45,6 @@ in
 	with pkgs.lib;
   with (import (builtins.fetchTarball https://github.com/moretea/yarn2nix/archive/master.tar.gz) { inherit pkgs; });
 {
-  inherit profiles;
-
   package = mkYarnPackage {
     name = "nix-kubernetes-${version}";
     src = ./.;
